@@ -1,8 +1,8 @@
-import React from 'react';
 import './Jadwal.scss';
 const JadwalCard = (props) => {
+  console.log(props);
   return (
-    <div className="jadwal">
+    <div className="jadwal" style={{ animation: `${props.stopAnimate ? 'none' : 'rate 12s linear infinite'}`, transform: `${props.stopAnimate && 'none'}`, left: `${props.stopAnimate && '0'}` }}>
       <div className="row1">
         <div className="left">
           <h2 className="jadwal_name">{props.judul}</h2>

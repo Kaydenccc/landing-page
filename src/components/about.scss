@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@400;600;700&family=Source+Sans+Pro&display=swap');
+$main_color: #fe5e44;
+$secondary_color: #0e144a;
+$body_color: linear-gradient(to top, rgba(255, 240, 238, 1), rgba(255, 244, 242, 0.4));
+$font_patua_one: 'Patua One', cursive;
+$font_poppins: 'Poppins', sans-serif;
+$font_source_sans_pro: 'Source Sans Pro', sans-serif;
+.about {
+  width: 100%;
+  background: white;
+  max-height: 44.25rem;
+
+  .container {
+    padding-top: 100px;
+    max-width: 73rem;
+    margin: 0 auto 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    .about_left {
+      display: flex;
+      flex-direction: column;
+      flex: 0.4;
+      h1 {
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 52px;
+        font-family: $font_patua_one;
+        color: #0e144a;
+      }
+      p {
+        margin: 1.2rem 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        font-style: $font_source_sans_pro;
+        color: rgba(14, 20, 74, 0.6);
+      }
+      .wrapper__total {
+        display: inline-flex;
+        width: 100%;
+        gap: 3.75rem;
+        margin: 2.5rem 0 2rem 0;
+        .total {
+          display: inline-flex;
+          flex-direction: column;
+          gap: 0.75rem;
+          span {
+            letter-spacing: 3px;
+          }
+          h2 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            color: #0c1b4d;
+          }
+        }
+      }
+    }
+    .about_right {
+      flex: 0.6;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      align-self: center;
+      gap: 1rem;
+      .card-about {
+        max-width: 19.969rem;
+        padding: 2.5rem;
+        background: rgba(254, 94, 68, 0.05);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.563rem;
+        .card__top {
+          display: flex;
+          gap: 2rem;
+          align-items: center;
+          font-family: $font_source_sans_pro;
+
+          h2 {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #000000;
+          }
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 28px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
