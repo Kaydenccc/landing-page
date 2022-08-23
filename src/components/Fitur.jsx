@@ -7,7 +7,6 @@ import BellSvg from '../svg/BellSvg';
 import Trush from '../svg/Trush';
 import VideoSvg from '../svg/VideoSvg';
 const Fitur = (props) => {
-  console.log(props.stopAnimate);
   return (
     <section className="fitur-container container">
       <div className="fitur__left">

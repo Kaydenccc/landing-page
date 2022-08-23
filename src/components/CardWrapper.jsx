@@ -6,7 +6,6 @@ import { FaShoppingCart } from 'react-icons/fa';
 import { IoLogoGameControllerB } from 'react-icons/io';
 
 const CardWrapper = (props) => {
-  console.log(props.stopAnimate);
   const icons = () => (
     <svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

@@ -1,6 +1,5 @@
 import './Jadwal.scss';
 const JadwalCard = (props) => {
-  console.log(props);
   return (
     <div className="jadwal" style={{ animation: `${props.stopAnimate ? 'none' : 'rate 12s linear infinite'}`, transform: `${props.stopAnimate && 'none'}`, left: `${props.stopAnimate && '0'}` }}>
       <div className="row1">
