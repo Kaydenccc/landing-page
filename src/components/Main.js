@@ -18,7 +18,7 @@ const Main = () => {
             Play Demo
           </a>
         </div>
-        <div class="testimoni">
+        <div class="testimonial">
           <div class="testimoni__wrapper">
             <div class="testimoni_card">
               <div class="test_star">

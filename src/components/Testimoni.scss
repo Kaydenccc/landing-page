@@ -1,0 +1,75 @@
+@import '../_master.scss';
+.testimoni {
+  background: rgba(254, 94, 68, 0.1);
+  .testimoni__container {
+    max-width: 73rem;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    h1 {
+      margin: auto;
+      max-width: 35.313rem;
+      font-family: $font_patua_one;
+      font-size: 38px;
+      line-height: 52px;
+      width: 100%;
+    }
+    p {
+      width: 35.438rem;
+      margin: 1.25rem auto 5.25rem auto;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      color: rgba(14, 20, 74, 0.6);
+      font-family: $font_source_sans_pro;
+    }
+    .testimoni__cardWrapper {
+      width: 100%;
+      columns: 3;
+      gap: 1.875rem;
+      text-align: left;
+
+      .card__testimoni {
+        background: #ffffff;
+        margin-bottom: 1.875rem;
+        width: 23.104rem;
+        box-shadow: 0px 15px 30px rgba(12, 14, 43, 0.05);
+        border-radius: 6px;
+        overflow: hidden;
+        padding: 1.875rem;
+        p {
+          font-family: 'Poppins';
+          font-size: 14px;
+          line-height: 26px;
+          width: 100%;
+          text-align: left;
+          margin: 1.25rem 0;
+        }
+        .test__profile {
+          display: flex;
+          gap: 1.25rem;
+          align-items: center;
+          font-family: 'Poppins';
+          img {
+            width: 3.438rem;
+            height: 3.438rem;
+          }
+          .des {
+            h2 {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 24px;
+            }
+            p {
+              margin-top: 4px;
+              margin-bottom: 0;
+              font-weight: 500;
+              font-size: 12px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

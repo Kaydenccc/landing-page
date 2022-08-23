@@ -1,0 +1,35 @@
+@import '../_master.scss';
+
+.download_section {
+  background-color: white;
+  max-width: 73rem;
+  margin: 0 auto;
+  padding: 100px 0;
+
+  .download_container {
+    h1 {
+      font-size: 38px;
+      width: 47.563rem;
+      line-height: 52px;
+      font-family: $font_patua_one;
+      text-align: center;
+      margin: auto;
+    }
+    p {
+      font-size: 18px;
+      width: 47.563rem;
+      line-height: 32px;
+      font-family: $font_source_sans_pro;
+      text-align: center;
+      color: rgba(14, 20, 74, 0.6);
+      margin: 1.25rem 0 86px 0;
+      margin: 1.25rem auto 40px auto;
+    }
+    .wrapper__download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+}
